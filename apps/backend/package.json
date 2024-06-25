@@ -20,7 +20,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "prettier": "@ardasevinc/prettier-config",
   "devDependencies": {
     "rimraf": "^5.0.7",
     "tsc-alias": "^1.8.10",
