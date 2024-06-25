@@ -11,9 +11,12 @@
   },
   "engines": {
     "node": ">=20",
-    "pnpm": ">=8",
-  }
+    "pnpm": ">=8"
+  },
   "keywords": [],
   "author": "Arda Sevinc <arda@ardasevinc.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@ardasevinc/prettier-config": "^0.1.4"
+  }
 }

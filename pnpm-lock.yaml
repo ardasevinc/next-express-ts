@@ -1,0 +1,23 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@ardasevinc/prettier-config':
+        specifier: ^0.1.4
+        version: 0.1.4
+
+packages:
+
+  '@ardasevinc/prettier-config@0.1.4':
+    resolution: {integrity: sha512-nR09iKTWyyXBpo+PStUfaP/AKhPPXYCiL/L8RAsA5Du3c1uNadaqCWEo64Yp92X3cU8phBisl7bFCF+x1J9cgg==}
+    engines: {npm: '>=9'}
+
+snapshots:
+
+  '@ardasevinc/prettier-config@0.1.4': {}
