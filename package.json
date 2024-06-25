@@ -6,7 +6,7 @@
   "scripts": {
     "dev:frontend": "pnpm --filter apps/frontend dev",
     "dev:backend": "pnpm --filter apps/backend dev",
-    "dev": "pnpm run \"/^watch:.*/\"",
+    "dev": "conc \"pnpm run dev:frontend\" \"pnpm run dev:backend\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
@@ -17,6 +17,7 @@
   "author": "Arda Sevinc <arda@ardasevinc.com>",
   "license": "MIT",
   "devDependencies": {
-    "@ardasevinc/prettier-config": "^0.1.4"
+    "@ardasevinc/prettier-config": "^0.1.4",
+    "concurrently": "^8.2.2"
   }
 }
